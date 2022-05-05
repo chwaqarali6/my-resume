@@ -4,14 +4,14 @@ import React from 'react'
 import TimelineItem from '../utility/TimelineItem'
 import BulletPoint from '../utility/BulletPoint'
 
-const WeOverI = (props) => {
+const Freelance = (props) => {
 	return (
 		<TimelineItem
 			dotColor='#BFBFBF'
 			time='Aug 2020 - Jan 2021'
 			duration='6 months'
 			location='Lahore, Pakistan'
-			title='We Over I - React Engineer'
+			title='Freelance'
 			description={`We > I (pronounced we-over-i) is a venture builder that partner with startups all over the world to merge talents and become an extension of their team.`}
 		>
 			<BulletPoint text='Revamped WE>I’s website with Reactjs, GSAP (Greensock), Ant Design and Netlify.' />
@@ -22,4 +22,4 @@ const WeOverI = (props) => {
 	)
 }
 
-export default WeOverI
+export default Freelance
