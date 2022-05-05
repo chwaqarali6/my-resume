@@ -4,6 +4,7 @@ import React from 'react'
 import Header from '../components/sections/Header'
 import Summary from '../components/sections/Summary'
 import WorkExperience from '../components/sections/WorkExperience'
+import Education from '../components/sections/Education'
 
 const Resume = (props) => {
 	return (
@@ -12,6 +13,7 @@ const Resume = (props) => {
 			<div className='w-full bg-gray-50 px-48 pb-48 pt-28'>
 				<Summary />
 				<WorkExperience />
+				<Education />
 			</div>
 		</div>
 	)

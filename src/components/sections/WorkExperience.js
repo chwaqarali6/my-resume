@@ -1,6 +1,6 @@
 // REACT
 import React from 'react'
-
+// COMPONENTS
 import Bridgelinx from '../experience/Bridgelinx'
 import WeOverI from '../experience/WeOverI'
 import Freelance from '../experience/Freelance'
