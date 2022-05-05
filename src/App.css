@@ -8,6 +8,42 @@
 @import '~antd/dist/antd.css';
 
 /* ============================================================================================== */
+/* ======================================== FONTS IMPORT ======================================== */
+/* ============================================================================================== */
+@layer base {
+	@font-face {
+		font-family: 'Sofia Pro';
+		font-weight: 300;
+		src: url('./assets/fonts/Sofia Pro Light Az.otf');
+	}
+	@font-face {
+		font-family: 'Sofia Pro';
+		font-weight: 400;
+		src: url('./assets/fonts/Sofia Pro Regular Az.otf');
+	}
+	@font-face {
+		font-family: 'Sofia Pro';
+		font-weight: 500;
+		src: url('./assets/fonts/Sofia Pro Medium Az.otf');
+	}
+	@font-face {
+		font-family: 'Sofia Pro';
+		font-weight: 600;
+		src: url('./assets/fonts/Sofia Pro Semi Bold Az.otf');
+	}
+	@font-face {
+		font-family: 'Sofia Pro';
+		font-weight: 700;
+		src: url('./assets/fonts/Sofia Pro Bold Az.otf');
+	}
+	@font-face {
+		font-family: 'Sofia Pro';
+		font-weight: 900;
+		src: url('./assets/fonts/Sofia Pro Black Az.otf');
+	}
+}
+
+/* ============================================================================================== */
 /* ======================================== ROOT CLASSES ======================================== */
 /* ============================================================================================== */
 @layer base {
@@ -40,7 +76,6 @@
 	display: flex;
 	padding: 0px;
 }
-
 .ant-timeline-item-label {
 	width: 400px !important;
 	margin: 0px !important;
