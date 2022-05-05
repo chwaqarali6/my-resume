@@ -1,9 +1,9 @@
 // REACT
 import React from 'react'
 // COMPONENTS
-import Header from '../components/Header'
-import Summary from '../components/Summary'
-import WorkExperience from '../components/WorkExperience'
+import Header from '../components/sections/Header'
+import Summary from '../components/sections/Summary'
+import WorkExperience from '../components/sections/WorkExperience'
 
 const Resume = (props) => {
 	return (

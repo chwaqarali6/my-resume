@@ -38,11 +38,18 @@
 .ant-timeline-item {
 	width: 100%;
 	display: flex;
+	padding: 0px;
 }
 
 .ant-timeline-item-label {
 	width: 400px !important;
 	margin: 0px !important;
+}
+.ant-timeline-item-tail {
+	top: 84px;
+	left: 422.5px;
+	height: calc(100% - 120px);
+	border-left: 3px solid #bfbfbf;
 }
 .ant-timeline-item-head {
 	position: relative;

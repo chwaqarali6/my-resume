@@ -2,7 +2,8 @@
 import React from 'react'
 import { Timeline } from 'antd'
 
-import Bridgelinx from './experience/Bridgelinx'
+import Bridgelinx from '../experience/Bridgelinx'
+import WeOverI from '../experience/WeOverI'
 
 const WorkExperience = (props) => {
 	return (
@@ -10,6 +11,7 @@ const WorkExperience = (props) => {
 			<h2 className='mb-10 text-6xl font-black uppercase'>Work Experience</h2>
 			<Timeline mode='left' className='w-full'>
 				<Bridgelinx />
+				<WeOverI />
 			</Timeline>
 		</div>
 	)

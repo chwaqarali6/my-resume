@@ -12,9 +12,9 @@ const Header = (props) => {
 				<p className='mb-9 text-4xl font-light opacity-60'>Main Boulevard Defence, Lahore, Punjab, Pakistan</p>
 				<p className='mb-9 flex h-20 w-[472px] items-center justify-center rounded-lg bg-white font-light text-black'>www.chwaqarali.com</p>
 				<div className='flex items-center'>
-					<img src={require('../assets/icons/Instagram.png')} alt='Instagram' width='50' height='50' className='mr-24' />
-					<img src={require('../assets/icons/LinkedIn.png')} alt='LinkedIn' width='50' height='50' className='mr-24' />
-					<img src={require('../assets/icons/Github.png')} alt='Github' width='50' height='50' />
+					<img src={require('../../assets/icons/Instagram.png')} alt='Instagram' width='50' height='50' className='mr-24' />
+					<img src={require('../../assets/icons/LinkedIn.png')} alt='LinkedIn' width='50' height='50' className='mr-24' />
+					<img src={require('../../assets/icons/Github.png')} alt='Github' width='50' height='50' />
 				</div>
 			</div>
 		</div>
