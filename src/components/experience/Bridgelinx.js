@@ -16,18 +16,18 @@ const Bridgelinx = (props) => {
 	const JobTitle = (props) => (
 		<div className='flex items-center justify-between'>
 			<h3 className='text-5xl font-bold'>{props?.title}</h3>
-			<p className='font-light text-gray-500'>{props.duration}</p>
+			<p className='font-light text-gray-400'>{props.duration}</p>
 		</div>
 	)
 
 	return (
-		<Timeline.Item label={<TimelineItemLabel />}>
+		<Timeline.Item label={<TimelineItemLabel />} className='YellowDot'>
 			<h3 className='mb-4 text-5xl font-bold'>BridgeLinx Technologies</h3>
 			<p className='mb-9 font-light italic'>
 				BridgeLinx is a digital marketplace for freight cargo that raised $10 million in the country’s largest seed round.
 			</p>
 			<div className='mb-9'>
-				<JobTitle title='Web Engineer Lead' duration='Sep 2021 to Present - 4 months' />
+				<JobTitle title='Web Engineering Lead' duration='Sep 2021 to Present - 4 months' />
 				<BulletPoint text='Received an early promotion and increment based on an outstanding performance in the engineering team and on achieving 150% of the KPIs.' />
 				<BulletPoint text='Leading a team of 3 web engineers with a additional responsibility of conducting tech interviews during hirings.' />
 				<BulletPoint text='Collaborating with other teams for requirement gathering, understanding workflows and bringing creative ideas to the table.' />

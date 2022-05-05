@@ -3,7 +3,10 @@ import React from 'react'
 
 const Header = (props) => {
 	return (
-		<div className='mb-28 h-[680px] bg-black'>
+		<div className='flex h-[680px] justify-center bg-black'>
+			<div className='relative mr-40 h-full w-[680px] overflow-hidden'>
+				<img className='absolute -top-6' src={require('../../assets/img/Me.png')} alt='Me' />
+			</div>
 			<div className='flex h-full flex-col items-center justify-center text-white'>
 				<h1 className='text-8xl font-light text-white'>
 					Chaudhry <span className='font-bold'>Waqar</span> Ali
