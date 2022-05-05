@@ -25,17 +25,18 @@ const Header = (props) => {
 					className='flex h-20 w-[472px] items-center justify-center rounded-lg bg-white font-light text-black'
 					href='https://www.chwaqarali.com'
 					target='_blank'
+					rel='noreferrer'
 				>
 					www.chwaqarali.com
 				</a>
 				<div className='flex items-center'>
-					<a className='mx-3 cursor-pointer p-9' href='https://www.instagram.com/gattoographics/' target='_blank'>
+					<a className='mx-3 cursor-pointer p-9' href='https://www.instagram.com/gattoographics/' target='_blank' rel='noreferrer'>
 						<img src={require('../../assets/icons/Instagram.png')} alt='Instagram' width='50' height='50' />
 					</a>
-					<a className='mx-3 cursor-pointer p-9' href='https://www.linkedin.com/in/chwaqarali6/' target='_blank'>
+					<a className='mx-3 cursor-pointer p-9' href='https://www.linkedin.com/in/chwaqarali6/' target='_blank' rel='noreferrer'>
 						<img src={require('../../assets/icons/LinkedIn.png')} alt='LinkedIn' width='50' height='50' />
 					</a>
-					<a className='mx-3 cursor-pointer p-9' href='https://github.com/chwaqarali6/' target='_blank'>
+					<a className='mx-3 cursor-pointer p-9' href='https://github.com/chwaqarali6/' target='_blank' rel='noreferrer'>
 						<img src={require('../../assets/icons/Github.png')} alt='Github' width='50' height='50' />
 					</a>
 				</div>
