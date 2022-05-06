@@ -16,43 +16,30 @@ const Freelance = (props) => {
 		>
 			<BulletPoint text='Utilized both my coding and designing skills, to develop quality web and mobile apps with branding work and social media post designs.' />
 			<BulletPoint>
-				<p>
+				<a href='http://www.chwaqarali.com/' target='_blank' rel='noreferrer'>
 					<span>Created a custom theme on WordPress using PHP, HTML, CSS and Javascript to showcase projects on my </span>
-					<a className='cursor-pointer text-blue-500 underline' href='http://www.chwaqarali.com/' target='_blank' rel='noreferrer'>
-						portfolio website
-					</a>
-					.
-				</p>
+					<span className='cursor-pointer text-blue-500 underline'>portfolio website</span>
+				</a>
 			</BulletPoint>
 			<BulletPoint>
-				<p>
+				<a href='https://www.instagram.com/gattoographics/' target='_blank' rel='noreferrer'>
 					<span>Worked on branding projects showcased on </span>
-					<a className='cursor-pointer text-blue-500 underline' href='https://www.instagram.com/gattoographics/' target='_blank' rel='noreferrer'>
-						Gattoo Graphics
-					</a>
-					.
-				</p>
+					<span className='cursor-pointer text-blue-500 underline'>Gattoo Graphics</span>.
+				</a>
 			</BulletPoint>
 			<BulletPoint>
-				<p>
+				<a href='https://www.instagram.com/p/CGvWxUuAHXc/' target='_blank' rel='noreferrer'>
 					<span>Developed a spaced repetition schedular app named </span>
-					<a className='cursor-pointer text-blue-500 underline' href='https://www.instagram.com/p/CGvWxUuAHXc/' target='_blank' rel='noreferrer'>
-						Interrupt
-					</a>
+					<span className='cursor-pointer text-blue-500 underline'>Interrupt</span>
 					<span> using SwiftUI for iOS.</span>
-				</p>
+				</a>
 			</BulletPoint>
-			<BulletPoint>
-				<div>
-					<p>Learned and worked on new frontend frameworks like ReactJS.</p>
-					<p className='text-4xl italic text-gray-500'>
-						<span>* Learned ReactJS by working on a </span>
-						<a className='cursor-pointer text-blue-500 underline' href='https://mymoviebase.netlify.app/' target='_blank' rel='noreferrer'>
-							sample project
-						</a>
-						. *
-					</p>
-				</div>
+			<BulletPoint text='Learned and worked on new frontend frameworks like ReactJS.' />
+			<BulletPoint bullet={false}>
+				<a className='text-4xl italic text-gray-500' href='https://mymoviebase.netlify.app/' target='_blank' rel='noreferrer'>
+					<span>* Learned ReactJS by working on a </span>
+					<span className='cursor-pointer text-blue-500 underline'>sample project</span>. *
+				</a>
 			</BulletPoint>
 			<BulletPoint text='Rated 5 stars on all deliverables won on freelancing websites (Fiverr and Upwork) and reached seller Level One starting from Beginner in mere 1 month.' />
 		</TimelineItem>

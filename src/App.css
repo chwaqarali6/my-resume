@@ -58,6 +58,7 @@
 	h2,
 	h3,
 	p,
+	a,
 	div {
 		@apply text-[40px] !leading-snug;
 	}
