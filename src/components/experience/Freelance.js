@@ -8,16 +8,53 @@ const Freelance = (props) => {
 	return (
 		<TimelineItem
 			dotColor='#BFBFBF'
-			time='Aug 2020 - Jan 2021'
-			duration='6 months'
-			location='Lahore, Pakistan'
-			title='Freelance'
-			description={`We > I (pronounced we-over-i) is a venture builder that partner with startups all over the world to merge talents and become an extension of their team.`}
+			time='Jan 2019 - Aug 2020'
+			duration='1 year 7 months'
+			location='Remote'
+			title='Extendev - Co Founder'
+			description={`Extendev (pronounced Extend-Dev) provided tech and design support to freelance projects and small scale startups.`}
 		>
-			<BulletPoint text='Revamped WE>I’s website with Reactjs, GSAP (Greensock), Ant Design and Netlify.' />
-			<BulletPoint text='Worked with UI libraries like Ant Design.' />
-			<BulletPoint text='Learned and Implemented Animation libraries like GSAP (Greensock).' />
-			<BulletPoint text='Used Netlify for CI/CD and deployment of websites.' />
+			<BulletPoint text='Utilized both my coding and designing skills, to develop quality web and mobile apps with branding work and social media post designs.' />
+			<BulletPoint>
+				<p>
+					<span>Created a custom theme on WordPress using PHP, HTML, CSS and Javascript to showcase projects on my </span>
+					<a className='cursor-pointer text-blue-500 underline' href='http://www.chwaqarali.com/' target='_blank' rel='noreferrer'>
+						portfolio website
+					</a>
+					.
+				</p>
+			</BulletPoint>
+			<BulletPoint>
+				<p>
+					<span>Worked on branding projects showcased on </span>
+					<a className='cursor-pointer text-blue-500 underline' href='https://www.instagram.com/gattoographics/' target='_blank' rel='noreferrer'>
+						Gattoo Graphics
+					</a>
+					.
+				</p>
+			</BulletPoint>
+			<BulletPoint>
+				<p>
+					<span>Developed a spaced repetition schedular app named </span>
+					<a className='cursor-pointer text-blue-500 underline' href='https://www.instagram.com/p/CGvWxUuAHXc/' target='_blank' rel='noreferrer'>
+						Interrupt
+					</a>
+					<span> using SwiftUI for iOS.</span>
+				</p>
+			</BulletPoint>
+			<BulletPoint>
+				<div>
+					<p>Learned and worked on new frontend frameworks like ReactJS.</p>
+					<p className='text-4xl italic text-gray-500'>
+						<span>* Learned ReactJS by working on a </span>
+						<a className='cursor-pointer text-blue-500 underline' href='https://mymoviebase.netlify.app/' target='_blank' rel='noreferrer'>
+							sample project
+						</a>
+						. *
+					</p>
+				</div>
+			</BulletPoint>
+			<BulletPoint text='Rated 5 stars on all deliverables won on freelancing websites (Fiverr and Upwork) and reached seller Level One starting from Beginner in mere 1 month.' />
 		</TimelineItem>
 	)
 }

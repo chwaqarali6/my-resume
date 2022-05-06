@@ -10,7 +10,7 @@ const Resume = (props) => {
 	return (
 		<div id='Resume' className='w-[2480px]'>
 			<Header />
-			<div className='w-full bg-gray-50 px-48 pb-48 pt-28'>
+			<div className='w-full bg-gray-50 px-48 py-28'>
 				<Summary />
 				<WorkExperience />
 				<Education />
