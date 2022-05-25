@@ -22,7 +22,7 @@ const Bridgelinx = (props) => {
 			description={`BridgeLinx is a digital marketplace for freight cargo that raised $10 million in the country's largest seed round.`}
 		>
 			<div className='mb-9'>
-				<JobTitle title='Web Engineering Lead' duration='Sep 2021 to Present - 4 months' />
+				<JobTitle title='Senior Web Engineer' duration='Sep 2021 to Present - 4 months' />
 				<BulletPoint text='Received an early promotion and increment based on an outstanding performance in the engineering team, achieving 150% of the KPIs.' />
 				<BulletPoint text='Leading a team of 3 web engineers with a additional responsibility of conducting tech interviews during hirings.' />
 				<BulletPoint text='Collaborating with other teams for requirement gathering, understanding workflows and bringing creative ideas to the table.' />
